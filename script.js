@@ -1,3 +1,11 @@
+gsap.to("#btn", {
+    opacity: 1,
+    y: 25,
+    delay: 1,
+    duration: 1,
+    ease: "power2.out",
+})
+
 const button = document.querySelector("#btn");
 const par = document.querySelector("#prediction");
 const predictions = [
